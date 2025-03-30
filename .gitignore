@@ -1,0 +1,17 @@
+# Build outputs
+.DS_Store
+
+# Miscellaneous
+*.log
+*.tmp
+*.swp
+*.bak
+*.swo
+*.lock
+
+# VSCode settings
+.vscode/
+
+# Executable files
+*.exe
+*.out
