@@ -1,4 +1,4 @@
-#include <iostream>
+#include<iostream>
 using namespace std;
 
 void pattern(int n) {
@@ -10,7 +10,7 @@ void pattern(int n) {
             if (j < n + i - 2) cout << "*";
         }
         cout << endl;
-        num = num - (n + i - 1) + i; // Adjust number for next row
+        num = num - (n + i - 1) + i;
     }
 }
 
