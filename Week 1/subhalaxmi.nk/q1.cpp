@@ -8,7 +8,7 @@ int main(){
         else if(i%3==0)
         std::cout << "Fizz" << endl;
         else if(i%5==0)
-        std::cout << "Buzz" <<i endl;
+        std::cout << "Buzz" << endl;
         else
           cout << i << endl;
     }

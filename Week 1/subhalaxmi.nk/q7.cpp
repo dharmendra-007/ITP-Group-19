@@ -1,16 +1,15 @@
-#include <iostream>
+#include<iostream>
 using namespace std;
+
 int main()
-{
-    int n,num=1,i,j,;
-    cout << "enter a number:";
+ {
+    int n, num = 1, i, j;
+    cout << "Enter a number: ";
     cin >> n;
-    for(i==0;i<3;i++)
-    {
-        for(j=0;j<n;j++)
-        {
-            if(j>0)
-            {
+
+    for (i = 0; i < 3; i++) {
+        for (j = 0; j < n; j++) {
+            if (j > 0) {
                 cout << "*";
             }
             cout << num;
@@ -20,3 +19,4 @@ int main()
     }
     return 0;
 }
+
