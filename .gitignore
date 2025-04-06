@@ -8,6 +8,7 @@
 *.bak
 *.swo
 *.lock
+**/tempCodeRunnerFile.cpp
 
 # VSCode settings
 .vscode/
